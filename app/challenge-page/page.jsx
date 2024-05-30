@@ -1,10 +1,13 @@
 import React from 'react'
+import FirstSection from "@/components/challengePage-sections/section1"
+import SecondSection from "@/components/challengePage-sections/section2"
 
 const ChallengePage = () => {
   return (
- <>
- <h1>ChallengePage</h1>
- </>
+    <>
+      <FirstSection />
+      <SecondSection />
+    </>
   )
 }
 
