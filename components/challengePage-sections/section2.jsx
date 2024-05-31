@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 const SecondSection = () => {
     return (
-        <section className="py-8">
-            <div className="container mx-auto px-4 text-center bg-[url('/assets/bgsection2.svg')] bg-cover bg-center py-20 rounded-3xl">
-                <div className="flex flex-col items-center space-y-6 md:space-y-8 lg:space-y-5">
-                    <h3 className="text-xl font-semibold text-white md:text-2xl lg:text-4xl">
+        <section className='  px-4 lg:px-10' >
+            <div className=" lg:max-w-[1280px] container mx-auto px-1  md:px-2 lg:px-3 text-center bg-[url('/assets/bgImg.svg')] bg-cover bg-center py-10 lg:py-20 rounded-[20px]">
+                <div className="flex flex-col items-center space-y-3 md:space-y-4 lg:space-y-4">
+                    <h3 className="text-2xl font-semibold text-white md:text-3xl lg:text-4xl">
                         CHALLENGE A FRIEND TO JOIN YOU
                     </h3>
                     <p className="text-white text-lg lg:text-xl">
