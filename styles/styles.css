@@ -1,20 +1,22 @@
+.footer .footerContentHead{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
 .footer {
-    /* Multiple backgrounds: the first is a radial gradient, the second is the image */
-    background: 
-      radial-gradient(circle, rgba(#447ef7), rgba(#447ef7)), /* Adjust colors as needed */
-      url('/assets/footerBgImg.svg'); /* Assuming image is in the 'public/assets' folder */
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-  }
-  
+  /* Multiple backgrounds: the first is a radial gradient, the second is the image */
+  background: radial-gradient(circle, rgba(#447ef7), rgba(#447ef7)),
+    /* Adjust colors as needed */ url("/assets/footerBgImg.svg"); /* Assuming image is in the 'public/assets' folder */
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
 
 .footer h5 {
   font-size: "16px !important";
   font-weight: 600;
   margin-bottom: 20px;
 }
-.footer ul li { 
+.footer ul li {
   margin-bottom: 8px;
 }
 
@@ -23,26 +25,31 @@
   font-weight: 300;
   letter-spacing: 1px;
 }
-.footer .imgHead {
-  padding-left: 58px;
-}
-.footer .imgHead img {
-  width: 227px;
-  height: 100%;
-}
 .footer .listHead {
   padding-bottom: 40px;
   border-bottom: 1px solid #fff;
 }
-.footer .form .input{
-    background: unset;
+.footer .form{
+    border-bottom: 1px solid #fff;
+    width: 100%;
+   
 }
-.footer .inputHead{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer .form .input {
+  background: unset;
+  border: unset;
+  outline: unset;
+  width: 100%;
 }
-.footer .inputHead img{
-    color: #fff
+.footer .inputHead {
+  border-bottom: 1px solid #fff;
+ 
+  
+}
+.footer .inputContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .inputHead img {
+  color: #fff;
 }
