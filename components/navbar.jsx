@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="w-[80%] mx-auto">
         <div className="flex justify-between items-center">
           {/* Logo and title */}
-          <div className="flex items-center justify-center">
+          <div className="flex items-center">
             <div className="grid items-center justify-center imgHead">
               <Image
                 src="/assets/navLogo.svg"
@@ -40,76 +40,53 @@ const Navbar = () => {
             {/* Person Icon for User Menu */}
             <button
               onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-              className="ml-2 flex bg-[#4b66ea]  rounded-full w-30 h-30 "
+              className="ml-2 flex items-center"
             >
-              <span className=" bg-[#4b66ea] p-1 rounded-full w-30 h-30 ">
-                <Image
-                  src="/assets/navPersonIcon.svg" // Path to your person icon
-                  alt="User Icon"
-                  width={30}
-                  height={30}
-                  className="color-[#4b66ea]"
-                />
-              </span>
+              <Image
+                src="/assets/navPersonIcon.svg"
+                alt="User Icon"
+                width={30}
+                height={30}
+                className="bg-[#4b66ea] p-1 rounded-full"
+              />
             </button>
           </div>
 
           {/* Navigation Links */}
           <div
-            className={`absolute md:relative md:top-0 top-[100px] left-0 w-full md:w-auto bg-white md:bg-transparent ${
+            className={`${
               isMenuOpen ? "block" : "hidden"
-            } md:flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2`}
+            } md:block md:flex md:items-center space-y-2 md:space-y-0 md:space-x-4 absolute md:relative md:top-0 top-[100px] left-0 w-full md:w-auto bg-white md:bg-transparent`}
           >
-            <Link
-              href="/home"
-              className="py-2 px-3 text-blue-500 block text-center"
-            >
+            <Link href="/home" className="py-2 px-3 text-blue-500 block">
               Home
             </Link>
-            <Link
-              href="/about"
-              className="py-2 px-3 flex items-center justify-center text-blue-500 block"
-            >
+            <Link href="/about" className="py-2 px-3 text-blue-500 block">
               About
             </Link>
-            <Link
-              href="/services"
-              className="py-2 px-3 flex items-center justify-center text-blue-500 block"
-            >
+            <Link href="/services" className="py-2 px-3 text-blue-500 block">
               Services
             </Link>
-            <Link
-              href="/countries"
-              className="py-2 px-3 flex items-center justify-center text-blue-500 block"
-            >
+            <Link href="/countries" className="py-2 px-3 text-blue-500 block">
               Countries
             </Link>
-            <Link
-              href="/partnership"
-              className="py-2 px-3 text-blue-500 block text-center"
-            >
+            <Link href="/partnership" className="py-2 px-3 text-blue-500 block">
               Partnership
             </Link>
-            <Link
-              href="/events"
-              className="py-2 px-3 text-blue-500 block text-center"
-            >
+            <Link href="/events" className="py-2 px-3 text-blue-500 block">
               Events
             </Link>
-            <Link
-              href="/contact"
-              className="py-2 px-3 text-blue-500 block text-center"
-            >
+            <Link href="/contact" className="py-2 px-3 text-blue-500 block">
               Contact Us
             </Link>
           </div>
 
           {/* User Menu for Register and Login */}
           {isUserMenuOpen && (
-            <div className="absolute top-[54px] right-[62px] w-[100px] md:bg-transparent flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2 bg-[#f0f9fe] ">
+            <div className="absolute top-[54px] right-0 w-[100px] bg-white shadow-md rounded-md md:bg-transparent md:flex md:flex-col items-center space-y-2 md:space-y-0 md:space-x-2">
               <Link
                 href="/register"
-                className="px-3 py-2 rounded text-black-500 block text-center"
+                className="px-3 py-2 rounded text-black block text-center"
               >
                 Register
               </Link>
