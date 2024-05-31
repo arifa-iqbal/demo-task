@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md ">
-      <div className="max-w-7xl mx-auto px-4">
+    <nav className="bg-white shadow-md   px-10">
+      <div className="max-w-7x1 mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex space-x-4 items-center  justify-center">
             {/* Logo and title */}

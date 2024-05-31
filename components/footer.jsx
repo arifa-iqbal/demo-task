@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-800 text-white p-10 footer ">
+    <footer className=" max-w-7x1 mx-auto  bg-blue-800 text-white p-10 footer ">
       <div className="grid  items-start justify-start mb-10 imgHead">
         <Image
           src="/assets/logo.svg"
@@ -125,9 +125,8 @@ const Footer = () => {
                 src="/public/assets/sendIcon.svg"
                 alt="College Mastermind Logo"
                 width={100}
-                height={100} 
+                height={100}
                 className="bg-black"
-                
               />
             </div>
           </form>
@@ -146,12 +145,10 @@ const Footer = () => {
             </a>
           </div>
         </div>
-       
       </div>
-      <div className="text-end  mt-4 text-sm terms">
+      <div className="text-end  mt-4 text-sm terms ">
         <a href="/privacy">Privacy Policy</a> | <a href="/legal">Legal Terms</a>
       </div>
-     
     </footer>
   );
 };
