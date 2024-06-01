@@ -5,7 +5,7 @@ import Link from 'next/link';
 const EighthSection = () => {
     return (
         <div className='bg-[#edf9fe] text-center pt-16 flex flex-col items-center px-4'>
-            <h2 className='font-bold text-lg md:text-2xl lg:text-4xl'>
+            <h2 className='font-bold text-[30px] md:text-[38px] lg:text-[40px]'>
                 SIGN UP FOR OUR FREE 6 WEEK SAT <br /> CHALLENGE
             </h2>
             <div className='flex justify-center mt-14 w-full'>

@@ -17,7 +17,7 @@ const NinthSection = () => {
           />
         </div>
         <div className="flex flex-col items-start">
-          <h5 className="text-xl md:text-2xl lg:text-3xl font-bold text-blue-600 text-start mb-6 md:mb-10">
+          <h5 className="text-[30px]  md:text-[38px] lg:text-[40px] font-bold text-blue-600 text-start mb-6 md:mb-10">
             No catch! This is a completely free <br /> opportunity.
           </h5>
           <p className="text-black mb-6">

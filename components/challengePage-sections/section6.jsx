@@ -16,8 +16,8 @@ const SixthSection = () => {
                         className="rounded-lg"
                     />
                 </div>
-                <div className="w-full lg:w-1/2 lg:max-w-[766px]">
-                    <h5 className="font-normal leading-[58.4px] text-blue-600 text-lg md:text-2xl lg:text-[40px] text-start mb-4 lg:mb-6 l tracking-normal letter-spacing-[1px] ">
+                <div className="w-full lg:w-1/2 lg:max-w-[766px] pt-18">
+                    <h5 className="font-normal leading-10 text-blue-600 text-[20px] md:text-[30px] lg:text-[38px] text-start mb-4 lg:mb-6  ">
                         We ll have your scores up in no time with weekly practice tests! We even had two
                         perfect scorers last year!
                     </h5>
