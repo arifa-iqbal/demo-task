@@ -12,7 +12,7 @@ import NinthSection from "@/components/challengePage-sections/section9"
 const ChallengePage = () => {
   return (
     <>
-      <div className='bg-F5F5F5'>
+      <div className=''>
         <FirstSection />
         <SecondSection />
         <ThrdSection />

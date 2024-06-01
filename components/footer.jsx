@@ -5,7 +5,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-blue-800 text-white footer py-4">
-      <div className="w-[80%] mx-auto">
+      <div className="max-w-[1320px] px-5 w-full mx-auto">
         <div className="footerContentHead">
           <div className="mb-10">
             <Image
@@ -74,46 +74,43 @@ const Footer = () => {
             </div>
 
             {/* Countries Column */}
-            <div>
+            <div className="xl:mt-0 lg-mt-0 md-mt-0 mt-5 xl:w-fit lg:w-fit md:w-fit sm:w-fit w-full">
               <h5 className="font-bold mb-3">Countries</h5>
-              <ul>
-                <li>
+              <ul className="d-flex  xl:columns-2  lg:columns-2 md:columns-2 sm:columns-5 columns-4  ">
+                <li className="w-fit">
                   <a href="/saudi">Saudi Arabia</a>
                 </li>
-                <li>
+                <li className="w-fit">
                   <a href="/uae">UAE</a>
                 </li>
-                <li>
+                <li className="w-fit">
                   <a href="/qatar">Qatar</a>
                 </li>
-                <li>
+                <li className="w-fit">
                   <a href="/oman">Oman</a>
                 </li>
-                <li>
+                <li className="w-fit">
                   <a href="/kuwait">Kuwait</a>
                 </li>
-                <li>
+                <li className="w-fit">
                   <a href="/bahrain">Bahrain</a>
                 </li>
-              </ul>
-            </div>
-            <div>
-              <ul className="mt-12">
-                <li>
+                <li className="w-fit">
                   <a href="/china">China</a>
                 </li>
-                <li>
+                <li className="w-fit">
                   <a href="/india">India</a>
                 </li>
-                <li>
+                <li className="w-fit">
                   <a href="/south-korea">South Korea</a>
                 </li>
               </ul>
             </div>
+            
 
             {/* Newsletter Column */}
-            <div className="lg:w-[300px] md:w-[2400px]  sm:w-[100%] ">
-              <h5 className="font-bold md:mt-[20px] md:mt-[20px]">Subscribe Our Newsletter</h5>
+            <div className="lg:w-[300px] md:w-[2400px]  w-[100%] xl:mt-0 lg-mt-0 md-mt-0 mt-5">
+              <h5 className="font-bold md:mt-[20px] ">Subscribe Our Newsletter</h5>
               <form className="form inputHead my-[41px] md:my-[10px] md:mb-[14px] ">
                 <div className="inputContent">
                   <input
@@ -167,8 +164,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-end mt-3 text-sm terms">
-          <a href="/privacy">Privacy Policy</a> |{" "}
+        <div className="text-end mt-3 text-sm terms flex  md:justify-end lg:justify-end xl:justify-end justify-center gap-4">
+          <a href="/privacy">Privacy Policy</a>
           <a href="/legal">Legal Terms</a>
         </div>
       </div>

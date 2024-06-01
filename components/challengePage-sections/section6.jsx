@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const SixthSection = () => {
     return (
-        <section className="bg-white py-10 hidden md:block">
-            <div className=" lg:max-w-[1280px] container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-8">
+        <section className="bg-[#edf9fe] py-10 hidden md:block">
+            <div className="max-w-[1320px] px-5 w-full mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
                 <div className="w-full lg:w-1/2">
                     <Image
                         src="/assets/SixthSectionImg.svg"
@@ -17,8 +17,8 @@ const SixthSection = () => {
                     />
                 </div>
                 <div className="w-full lg:w-1/2 lg:max-w-[766px]">
-                    <h5 className="font-bold text-blue-600 text-lg md:text-2xl lg:text-3xl text-start mb-4 lg:mb-6 leading-normal tracking-normal">
-                        We'll have your scores up in no time with weekly practice tests! We even had two
+                    <h5 className="font-normal leading-[58.4px] text-blue-600 text-lg md:text-2xl lg:text-[40px] text-start mb-4 lg:mb-6 l tracking-normal">
+                        We ll have your scores up in no time with weekly practice tests! We even had two
                         perfect scorers last year!
                     </h5>
                     <p className='text-gray-400 text-md md:text-lg lg:text-xl mb-4 lg:mb-6'>
