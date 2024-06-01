@@ -82,24 +82,24 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div
             className={`${isMenuOpen ? "block" : "hidden"
-              }  lg:flex lg:items-center  space-y-2 lg:space-y-0 lg:space-x-4 absolute lg:relative lg:top-0 top-[100px] left-0 w-full md:w-auto  bg-white md:bg-transparent`}
+              }  lg:flex lg:items-center  space-y-2 lg:space-y-0 lg:space-x-4 absolute lg:relative lg:top-0 top-[100px] left-0 w-full lg:w-[70%]  bg-white lg:bg-transparent sm:bg-[#fff]   justify-end `}
           >
             <Link href="/home" className="py-2 px-3 text-black xl:text-lg lg:text-base text-center font-medium block">
               Home
             </Link>
-            <Link href="/about" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center">
+            <Link href="/about" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center bg-[#edf9fe] lg:bg-[unset]">
               About <IoIosArrowDown className="ms-2" />
             </Link>
             <Link href="/services" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center">
-              Services <IoIosArrowDown className="ms-2" />
+              Services <IoIosArrowDown className="ms-2 md:ms-1" />
             </Link>
-            <Link href="/countries" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center">
-              Countries <IoIosArrowDown className="ms-2" />
+            <Link href="/countries" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center bg-[#edf9fe] lg:bg-[unset]">
+              Countries <IoIosArrowDown className="ms-2 md:ms-1" />
             </Link>
             <Link href="/partnership" className="py-2 px-3 text-black xl:text-lg text-center lg:text-base font-medium lg:px-0 block">
               Partnership
             </Link>
-            <Link href="/events" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium text-center lg:px-0 block">
+            <Link href="/events" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium text-center lg:px-0 block bg-[#edf9fe] lg:bg-[unset]">
               Events
             </Link>
             <Link href="/contact" className="py-2 px-3 text-black xl:text-lg lg:text-base text-center font-medium lg:px-0 block">
@@ -108,7 +108,7 @@ const Navbar = () => {
           </div>
 
           {/* Register and Login Links for larger screens */}
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex w-[200px]">
             <Link
               href="/register"
               className="px-3 py-2 rounded text-black block text-center xl:text-lg lg:text-base font-medium"

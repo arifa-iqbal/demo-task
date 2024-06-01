@@ -6,7 +6,7 @@ const ForthSection = () => {
         <section className="bg-[#edf9fe] py-10 pt-0">
             <div className="max-w-[1320px] px-5  w-full mx-auto md:px-8 lg:px-10 flex flex-col md:flex-row items-end justify-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-16 max-md:items-center">
                 <div className="flex flex-col items-start text-white max-md:order-2 order-1 ">
-                    <h5 className="text-[30px] font-normal text-blue-600 md:text-[30px] lg:text-[40px] mb-10 ">
+                    <h5 className="text-[30px] font-normal text-blue-600 md:text-[30px] lg:text-[40px] mb-10 md:text-center ">
                         THE 6-Week Schedule
                     </h5>
                     <div className="text-left p-6 md:p-9 bg-blue-400 rounded-2xl lg:w-[568px] ">
