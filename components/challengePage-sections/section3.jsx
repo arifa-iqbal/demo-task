@@ -5,9 +5,9 @@ import { GiCheckMark } from "react-icons/gi";
 
 const ThrdSection = () => {
     return (
-        <section className="bg-[#edf9fe] py-20">
-            <div className="max-w-[1320px] px-5 w-full mx-auto  md:px-8  flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-12">
-                <div className="w-full  lg:order-1 lg:w-[456px] ">
+        <section className="bg-[#edf9fe] py-14 md:py-20">
+            <div className="max-w-[1320px]  px-5 w-full mx-auto  md:px-8  flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-12">
+                <div className="lg:order-1 lg:w-[456px] ">
                     <Image
                         src="/assets/thrdSectionImg.svg"
                         alt="Description of the image"
@@ -16,13 +16,13 @@ const ThrdSection = () => {
                         className="rounded-lg"
                     />
                 </div>
-                <div className="flex flex-col items-start md:order-1">
-                    <h5 className=" font-normal text-blue-600 text-[18px] md:text-[28px]  lg:text-[40px] mb-6">
+                <div className="flex flex-col items-center md:items-start md:order-1">
+                    <h5 className=" font-semibold text-blue-600 text-[20px] sm:text-[28px] lg:text-[30px]  xl:text-[40px] mb-6">
                         THE 6-WEEK CHALLENGE
                     </h5>
                     <div className="text-left space-y-4 text-[18px] lg:text-[22px]">
                         <div className="flex  space-x-4">
-                            <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
+                            <div className="relative flex items-center justify-center md:text-start text-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
                             <p className="text-[#758EB3] flex-1">3 Live Virtual Group Classes Every Week </p>

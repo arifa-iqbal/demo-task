@@ -9,7 +9,7 @@ const ForthSection = () => {
                     <h5 className="text-[30px] font-normal text-blue-600 md:text-[30px] lg:text-[40px] mb-10 ">
                         THE 6-Week Schedule
                     </h5>
-                    <div className="text-left p-6 md:p-9 bg-blue-400 rounded-2xl lg:w-[568px] w-full">
+                    <div className="text-left p-6 md:p-9 bg-blue-400 rounded-2xl lg:w-[568px] ">
                         <h6 className='font-normal pb-2 text-[30px]'>Initial Test </h6>
                         <p className='text-xl font-normal'>June 25th, 26th, or 27th</p>
                         <div className='pt-4'>
