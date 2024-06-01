@@ -14,11 +14,18 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo and title */}
           <div className="flex items-center">
-            <div className="grid items-center justify-center w-[200px] h-[69px] lg:w-[160px] lg:h-[56px] imgHead">
+            <div className="lg:grid items-center justify-center w-[100%] h-[100%] lg:w-[160px] lg:h-[56px] imgHead">
               <Image
                 src="/assets/navLogo.svg"
                 alt="College Mastermind Logo"
-                className="w-full h-full"
+                className="w-full h-full hidden lg:block"
+                width={100}
+                height={100}
+              />
+              <Image
+                src="/assets/logoImg.svg"
+                alt="logo image"
+                className="block lg:hidden"
                 width={100}
                 height={100}
               />
@@ -74,9 +81,8 @@ const Navbar = () => {
 
           {/* Navigation Links */}
           <div
-            className={`${
-              isMenuOpen ? "block" : "hidden"
-            }  lg:flex lg:items-center  space-y-2 lg:space-y-0 lg:space-x-4 absolute lg:relative lg:top-0 top-[100px] left-0 w-full md:w-auto  bg-white md:bg-transparent`}
+            className={`${isMenuOpen ? "block" : "hidden"
+              }  lg:flex lg:items-center  space-y-2 lg:space-y-0 lg:space-x-4 absolute lg:relative lg:top-0 top-[100px] left-0 w-full md:w-auto  bg-white md:bg-transparent`}
           >
             <Link href="/home" className="py-2 px-3 text-black xl:text-lg lg:text-base text-center font-medium block">
               Home

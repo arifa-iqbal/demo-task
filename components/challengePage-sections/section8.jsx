@@ -9,7 +9,7 @@ const EighthSection = () => {
                 SIGN UP FOR OUR FREE 6 WEEK SAT <br /> CHALLENGE
             </h2>
             <div className='flex justify-center mt-14 w-full'>
-                <div className='w-full max-w-4xl bg-white shadow-2xl rounded-3xl p-6 md:p-10'>
+                <div className='w-full max-w-4xl bg-white shadow-2xl rounded-3xl p-6 md:p-10 z-10'>
                     <div className="text-left space-y-4">
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
