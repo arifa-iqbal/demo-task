@@ -4,9 +4,9 @@ import Link from "next/link";
 const FirstSection = () => {
   return (
     <section className="bg-[#edf9fe] py-10 lg:text-center ">
-      <div className=" max-w-[1320px] px-5 w-full mx-auto flex flex-col-reverse md:flex-row md:text-center items-center justify-between gap-10">
+      <div className=" max-w-[1320px] px-5  w-full mx-auto flex flex-col-reverse md:flex-row md:text-center items-center justify-between gap-10">
         <div className="flex flex-col xl:items-start lg:items-start md:items-start items-center ">
-          <h2 className="text-[36px] font-bold text-blue-600 md:text-[40px] lg:text-[44px] xl:text-start lg:text-start md:text-start text-center    mb-6 md:mb-10">
+          <h2 className="text-[36px] font-bold text-blue-600 md:text-[40px] lg:text-[3px] xl:text-[44px] xl:text-start lg:text-start md:text-start text-center    mb-6 md:mb-10">
             EVERYTHING YOU NEED TO RAISE YOUR SCORES FAST!
           </h2>
           <p className="text-black text-base md:text-lg  xl:text-start lg:text-start md:text-start text-center  lg:text-2xl mb-6 ">
@@ -27,7 +27,7 @@ const FirstSection = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-xl mb-10 md:mb-0">
+        <div className="w-full lg:max-w-[528px] lg:max-h-[471px] mb-10 md:mb-0">
           <Image
             src="/assets/firstSection.svg"
             alt="Description of the image"
