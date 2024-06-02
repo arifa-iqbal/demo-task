@@ -1,6 +1,7 @@
 import React from "react";
-import Cards from "@/components/seventhSectionCards/cardss";
+
 import Image from "next/image";
+import KnowCards from "../knowCards/cards";
 
 const KnowthirdSection = () => {
   return (
@@ -13,20 +14,20 @@ const KnowthirdSection = () => {
         height={100}
       />
       <div className="max-w-[1320px] px-5 w-full mx-auto  py-8 ">
-        <h2 className="font-normal text-4xl  md:text-2xl lg:text-4xl text-center xl:w-[75%] lg:w-[90%] w-full   mx-auto mb-20">
+        <h2 className="font-normal gilroy-semibold  md:text-2xl lg:text-[40px]  !leading-[48px]  text-center xl:w-[75%] lg:w-[90%] w-full   mx-auto mb-20">
           A diamond that is buried deep underneath the soil is only valuable
           once it is mined, cut, and polished.
         </h2>
         <div className="flex flex-col md:flex-row item-strech justify-center gap-5 mt-10">
-          <Cards
+          <KnowCards
             title="Be Valuable"
             description="Don’t be like a rough diamond waiting to be discovered. Present yourself to universities as a polished gem showcasing your full potential and most brilliant qualities!"
           />
-          <Cards
+          <KnowCards
             title="It’s Not about Grades or Activities"
             description="Academic excellence and extracurricular activities are expected. Those parts of your application are only the first hurdle towards gaining acceptance into a university. "
           />
-          <Cards
+          <KnowCards
             title="Why Value is Important"
             description="Universities are not willing to take risks. They want strong students who will add to the campus and who are likely to become very successful adults."
           />

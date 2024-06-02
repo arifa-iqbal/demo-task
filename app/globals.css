@@ -3,10 +3,29 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Gilroy-SemiBold";
-  src: url('/assets/fonts/Gilroy-SemiBold.ttf') format('truetype'); /* Specify the format */
+  font-family: "Gilroy-Bold";
+  src: url("/assets/fonts/Gilroy-Bold.ttf") format("truetype");
 }
 
-body {
+
+.gilroy-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("/assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+
+.gilroy-semibold {
   font-family: "Gilroy-SemiBold", sans-serif;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("/assets/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+.gilroy-medium {
+  font-family: "Gilroy-Medium", sans-serif;
 }

@@ -5,7 +5,7 @@ import Link from 'next/link';
 const EighthSection = () => {
     return (
         <div className='bg-[#edf9fe] text-center pt-16 flex flex-col items-center px-4'>
-            <h2 className='font-bold text-[30px] md:text-[38px] lg:text-[40px]'>
+            <h2 className=' text-[40px] font-normal gilroy-semibold md:text-[38px] lg:text-[40px]'>
                 SIGN UP FOR OUR FREE 6 WEEK SAT <br /> CHALLENGE
             </h2>
             <div className='flex justify-center mt-14 w-full'>
@@ -15,55 +15,55 @@ const EighthSection = () => {
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">A diagnostic test to gauge your starting point</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">A diagnostic test to gauge your starting point</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">A free score analysis where you can talk to a live test prep expert to set goals for your 6 weeks.</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">A free score analysis where you can talk to a live test prep expert to set goals for your 6 weeks.</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">Unlimited access to our Google classroom with all materials, assignments, and a large database of video solutions.</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">Unlimited access to our Google classroom with all materials, assignments, and a large database of video solutions.</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">Proven strategies and stress reduction techniques to help you eliminate mistakes.</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">Proven strategies and stress reduction techniques to help you eliminate mistakes.</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">Accountability, progress tracking, & group support.</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">Accountability, progress tracking, & group support.</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">Weekly exams to test your knowledge in real testing conditions.</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">Weekly exams to test your knowledge in real testing conditions.</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">You get immediate score results with our automated scoring system.</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">You get immediate score results with our automated scoring system.</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">A final exam with a complete expert analysis of the results.</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">A final exam with a complete expert analysis of the results.</p>
                         </div>
                         <div className="flex xl:items-center gap-4">
                             <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                                 <GiCheckMark className="text-blue-600 text-sm" />
                             </div>
-                            <p className="text-gray-500 w-[90%]">Join the 86% of our students who have scored in the top 5% of all SAT scorers in the nation!</p>
+                            <p className="text-[#758eb3] text-[22px] w-[90%]">Join the 86% of our students who have scored in the top 5% of all SAT scorers in the nation!</p>
                         </div>
                     </div>
                 </div>

@@ -17,10 +17,10 @@ const NinthSection = () => {
           />
         </div>
         <div className="flex flex-col items-start">
-          <h5 className="text-[30px]  md:text-[38px] lg:text-[40px] font-bold text-blue-600 text-start mb-6 md:mb-10">
+          <h5 className="text-[40px] font-normal gilroy-semibold  md:text-[38px] lg:text-[40px] text-blue-600 text-start mb-6 md:mb-10">
             No catch! This is a completely free <br /> opportunity.
           </h5>
-          <p className="text-black mb-6">
+          <p className="text-black mb-6 text-[22px]s">
             Our test prep programs were designed to get amazing results!
           </p>
           <div className="text-left space-y-4">
@@ -28,7 +28,7 @@ const NinthSection = () => {
               <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                 <GiCheckMark className="text-blue-600 text-sm" />
               </div>
-              <p className="text-gray-500 flex-1">
+              <p className="text-[#758eb3] text-[22px] flex-1">
                 You will be asked to submit a brief video testimonial at the end
                 of your journey and take a few surveys along the way.
               </p>
@@ -37,7 +37,7 @@ const NinthSection = () => {
               <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                 <GiCheckMark className="text-blue-600 text-sm" />
               </div>
-              <p className="text-gray-500 flex-1">
+              <p className="text-[#758eb3] text-[22px] flex-1">
                 You are required to complete the entire process from start to
                 finish, including all of the practice tests and homework
                 assignments as part of your commitment to joining the group.
@@ -47,7 +47,7 @@ const NinthSection = () => {
               <div className="relative flex items-center justify-center w-[26px] h-[26px] bg-blue-200 rounded-full">
                 <GiCheckMark className="text-blue-600 text-sm" />
               </div>
-              <p className="text-gray-500 flex-1">
+              <p className="text-[#758eb3] text-[22px] flex-1">
                 You can share your great results with others!
               </p>
             </div>

@@ -6,7 +6,7 @@ const FirstSection = () => {
     <section className="bg-[#edf9fe] py-[30px] md:py-[50] lg:py-[70px] lg:text-center ">
       <div className=" max-w-[1320px] px-5  w-full mx-auto flex flex-col-reverse md:flex-row md:text-center items-center justify-between gap-10">
         <div className="flex flex-col xl:items-start lg:items-start md:items-start items-center ">
-          <h2 className="text-[36px] font-bold text-blue-600 md:text-[24px] lg:text-[30px] xl:text-[36px] 2xl:text-[44px] xl:text-start lg:text-start md:text-start text-center mb-[16px]  lg:mb-[20px] ">
+          <h2 className="text-[44px] font-normal text-blue-600 md:text-[24px] lg:text-[30px] xl:text-[36px] 2xl:text-[44px] xl:text-start lg:text-start md:text-start text-center mb-[16px]  lg:mb-[20px]  gilroy-bold ">
             EVERYTHING YOU NEED TO RAISE YOUR SCORES FAST!
           </h2>
           <p className="text-black text-base md:text-lg  xl:text-start lg:text-start md:text-start text-center   lg:text-2xl mb-3 lg:mb-6 ">

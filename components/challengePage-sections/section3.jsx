@@ -17,7 +17,7 @@ const ThrdSection = () => {
                     />
                 </div>
                 <div className="flex flex-col items-center md:items-start md:order-1">
-                    <h5 className=" font-semibold text-blue-600 text-[20px] sm:text-[28px] lg:text-[30px]  xl:text-[40px] mb-6">
+                    <h5 className=" font-normal gilroy-semibold text-blue-600 text-[20px] sm:text-[28px] lg:text-[30px]  xl:text-[40px] mb-6">
                         THE 6-WEEK CHALLENGE
                     </h5>
                     <div className="text-left space-y-4 text-[18px] lg:text-[22px]">

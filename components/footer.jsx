@@ -19,35 +19,35 @@ const Footer = () => {
           <div className="flex justify-between align-top flex-wrap">
             {/* Quick Link Column */}
             <div>
-              <h5 className="font-size-20px">Quick Link</h5>
+              <h5 className="text-[22px] gilroy-bold">Quick Link</h5>
               <ul>
                 <li>
-                  <a href="/home">Home</a>
+                  <a href="/home" className="text-lg">Home</a>
                 </li>
                 <li>
-                  <a href="/about">About</a>
+                  <a  href="/about" className="text-lg">About</a>
                 </li>
                 <li>
-                  <a href="/services">Services</a>
+                  <a  href="/services" className="text-lg">Services</a>
                 </li>
                 <li>
-                  <a href="/partnership">Partnership</a>
+                  <a  href="/partnership" className="text-lg">Partnership</a>
                 </li>
                 <li>
-                  <a href="/packages">Packages</a>
+                  <a  href="/packages" className="text-lg">Packages</a>
                 </li>
                 <li>
-                  <a href="/team">Meet Our Team</a>
+                  <a  href="/team" className="text-lg">Meet Our Team</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact Us</a>
+                  <a  href="/contact" className="text-lg">Contact Us</a>
                 </li>
               </ul>
             </div>
 
             {/* Services Column */}
             <div>
-              <h5 className="font-bold mb-3">Services</h5>
+              <h5 className="text-[22px] gilroy-bold mb-3">Services</h5>
               <ul>
                 <li>
                   <a href="/intensive">5-Day Intensive</a>
@@ -75,7 +75,7 @@ const Footer = () => {
 
             {/* Countries Column */}
             <div className="xl:mt-0 lg-mt-0 md-mt-0 mt-5 xl:w-fit lg:w-fit md:w-fit sm:w-fit w-full">
-              <h5 className="font-bold mb-3">Countries</h5>
+              <h5 className="text-[22px] gilroy-bold mb-3">Countries</h5>
               <ul className="d-flex  xl:columns-2  lg:columns-2 md:columns-2 sm:columns-5 columns-4  ">
                 <li className="w-fit">
                   <a href="/saudi">Saudi Arabia</a>
@@ -110,7 +110,7 @@ const Footer = () => {
 
             {/* Newsletter Column */}
             <div className="lg:w-[300px] md:w-[2400px]  w-[100%] xl:mt-0 lg-mt-0 md-mt-0 mt-5">
-              <h5 className="font-bold md:mt-[20px] ">Subscribe Our Newsletter</h5>
+              <h5 className="text-[22px] gilroy-bold md:mt-[20px] ">Subscribe Our Newsletter</h5>
               <form className="form inputHead my-[41px] md:my-[10px] md:mb-[14px] ">
                 <div className="inputContent">
                   <input
@@ -165,8 +165,8 @@ const Footer = () => {
         </div>
 
         <div className="text-end mt-3 text-sm terms flex  md:justify-end lg:justify-end xl:justify-end justify-center gap-4">
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/legal">Legal Terms</a>
+          <a href="/privacy" className="text-lg">Privacy Policy</a>
+          <a href="/legal" className="text-lg">Legal Terms</a>
         </div>
       </div>
     </footer>

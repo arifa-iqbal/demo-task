@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false); // State for user menu toggle
 
   return (
-    <nav className="bg-[#edf9fe] shadow-lg py-4">
+    <nav className="bg-[#edf9fe] shadow-md py-4 relative">
       <div className="max-w-[1320px] px-5 w-full mx-auto">
         <div className="flex justify-between items-center">
           {/* Logo and title */}
@@ -84,25 +84,25 @@ const Navbar = () => {
             className={`${isMenuOpen ? "block" : "hidden"
               }  lg:flex lg:items-center  space-y-2 lg:space-y-0 lg:space-x-4 absolute lg:relative lg:top-0 top-[100px] left-0 w-full lg:w-[70%]  bg-white lg:bg-transparent sm:bg-[#fff]   justify-end `}
           >
-            <Link href="/home" className="py-2 px-3 text-black xl:text-lg lg:text-base text-center font-medium block">
+            <Link href="/home" className="py-2 px-3 text-black xl:text-[22px] gilroy-medium lg:text-base text-center font-medium block">
               Home
             </Link>
-            <Link href="/about" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center bg-[#edf9fe] lg:bg-[unset]">
+            <Link href="/about" className="py-2 px-3 text-black xl:text-[22px] gilroy-medium lg:text-base font-medium lg:px-0 flex justify-center items-center bg-[#edf9fe] lg:bg-[unset]">
               About <IoIosArrowDown className="ms-2" />
             </Link>
-            <Link href="/services" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center">
+            <Link href="/services" className="py-2 px-3 text-black xl:text-[22px] gilroy-medium lg:text-base font-medium lg:px-0 flex justify-center items-center">
               Services <IoIosArrowDown className="ms-2 md:ms-1" />
             </Link>
-            <Link href="/countries" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium lg:px-0 flex justify-center items-center bg-[#edf9fe] lg:bg-[unset]">
+            <Link href="/countries" className="py-2 px-3 text-black xl:text-[22px] gilroy-medium lg:text-base font-medium lg:px-0 flex justify-center items-center bg-[#edf9fe] lg:bg-[unset]">
               Countries <IoIosArrowDown className="ms-2 md:ms-1" />
             </Link>
-            <Link href="/partnership" className="py-2 px-3 text-black xl:text-lg text-center lg:text-base font-medium lg:px-0 block">
+            <Link href="/partnership" className="py-2 px-3 text-black xl:text-[22px] gilroy-medium text-center lg:text-base font-medium lg:px-0 block">
               Partnership
             </Link>
-            <Link href="/events" className="py-2 px-3 text-black xl:text-lg lg:text-base font-medium text-center lg:px-0 block bg-[#edf9fe] lg:bg-[unset]">
+            <Link href="/events" className="py-2 px-3 text-black xl:text-[22px] gilroy-medium lg:text-base font-medium text-center lg:px-0 block bg-[#edf9fe] lg:bg-[unset]">
               Events
             </Link>
-            <Link href="/contact" className="py-2 px-3 text-black xl:text-lg lg:text-base text-center font-medium lg:px-0 block">
+            <Link href="/contact" className="py-2 px-3 text-black xl:text-[22px] gilroy-medium lg:text-base text-center font-medium lg:px-0 block">
               Contact Us
             </Link>
           </div>
@@ -111,13 +111,13 @@ const Navbar = () => {
           <div className="hidden lg:flex w-[200px]">
             <Link
               href="/register"
-              className="px-3 py-2 rounded text-black block text-center xl:text-lg lg:text-base font-medium"
+              className="px-3 py-2 rounded text-black block text-center xl:text-[22px] gilroy-medium lg:text-base font-medium"
             >
               Register
             </Link>
             <Link
               href="/login"
-              className="px-3 py-2 rounded-md bg-blue-500 text-white block text-center xl:text-base lg:text-sm box-shadow-lg"
+              className="px-3 py-2 rounded-md bg-blue-500 text-white block text-center xl:text-base lg:text-sm shadow-lg"
             >
               LOG IN
             </Link>

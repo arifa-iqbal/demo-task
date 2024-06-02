@@ -5,7 +5,7 @@ const KnowfourSection = () => {
   return (
     <section className="bg-[#edf9fe] ">
       <div className="max-w-[1320px] px-5 w-full mx-auto  py-8">
-        <h2 className="font-normal text-4xl  md:text-2xl lg:text-4xl text-center w-[75%] mx-auto mb-20">
+        <h2 className="font-normal gilroy-semibold  md:text-2xl lg:text-[40px] text-center w-[75%] mx-auto mb-20">
           The Value Gap
         </h2>
         <div className="bg-white xl:p-10 p-5 rounded-2xl box-shadow-lg   lg:flex xl:flex justify-between w-full">
